@@ -1,0 +1,16 @@
+20:18:01.922 karate.env system property was: PRUEBA 
+20:18:01.923 URL BASE OPEN MARKET UAT https://api.octoperf.com 
+19:47:04.030 request:
+1 > POST https://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 0
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: api.octoperf.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > accept: */*
+
+
+19:47:29.120 org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.14.31, api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.17.119] failed: connect timed out, http call failed after 25090 milliseconds for URL: https://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+19:47:29.120 http request failed: 
+org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.14.31, api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.17.119] failed: connect timed out

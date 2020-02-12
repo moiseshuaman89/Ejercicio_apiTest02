@@ -1,0 +1,353 @@
+17:04:26.221 [main] INFO  com.intuit.karate - karate.env system property was: UAT 
+17:04:26.246 [main] ERROR com.intuit.karate - javascript function call failed: ReferenceError: "config" is not defined
+17:04:26.246 [main] ERROR com.intuit.karate - failed function body: function fn() {
+    karate.configure('connectTimeout', 60000);
+    karate.configure('readTimeout', 60000);
+    karate.configure('logPrettyResponse', true);
+    var env = karate.env; // get system property 'karate.env'
+    karate.log('karate.env system property was:', env);
+
+
+    urlBaseOctoPerf= 'https://api.octoperf.com';
+
+
+
+
+  return config;
+}
+17:21:25.367 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+17:21:25.380 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+17:21:25.983 [main] ERROR com.intuit.karate - http request failed: request body is required for a POST, please use the 'request' keyword
+17:25:21.315 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+17:25:21.325 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+17:26:46.404 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+17:26:46.412 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+17:27:35.967 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+17:27:35.976 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+17:28:00.349 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+17:28:00.357 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+17:28:00.883 [main] ERROR com.intuit.karate - http request failed: request body is required for a POST, please use the 'request' keyword
+17:28:32.634 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+17:28:32.642 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+17:28:33.263 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.octoperf.com/public/users/login?%27password%27=ExamenBCPWEB01&%27username%27=pruebasweb01.MAHR%40gmail.com
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: api.octoperf.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+17:28:58.488 [main] ERROR com.intuit.karate - org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.119, api.octoperf.com/51.91.14.31, api.octoperf.com/51.91.17.148] failed: connect timed out, http call failed after 25224 milliseconds for URL: https://api.octoperf.com/public/users/login?%27password%27=ExamenBCPWEB01&%27username%27=pruebasweb01.MAHR%40gmail.com
+17:28:58.489 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.119, api.octoperf.com/51.91.14.31, api.octoperf.com/51.91.17.148] failed: connect timed out
+17:30:58.321 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+17:30:58.330 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+17:30:58.832 [main] ERROR com.intuit.karate - http request failed: request body is required for a POST, please use the 'request' keyword
+17:37:24.746 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+17:37:24.754 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+17:37:25.434 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.octoperf.com/public/users/login?%27password%27=ExamenBCPWEB01&%27username%27=pruebasweb01.MAHR%40gmail.com
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: api.octoperf.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+17:37:50.461 [main] ERROR com.intuit.karate - org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.119, api.octoperf.com/51.91.14.31, api.octoperf.com/51.91.14.18] failed: connect timed out, http call failed after 25027 milliseconds for URL: https://api.octoperf.com/public/users/login?%27password%27=ExamenBCPWEB01&%27username%27=pruebasweb01.MAHR%40gmail.com
+17:37:50.462 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.119, api.octoperf.com/51.91.14.31, api.octoperf.com/51.91.14.18] failed: connect timed out
+17:39:04.310 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+17:39:04.318 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+17:39:04.997 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.octoperf.com/public/users/login?%27password%27=ExamenBCPWEB01&%27username%27=pruebasweb01.MAHR%40gmail.com
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: api.octoperf.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+17:39:30.095 [main] ERROR com.intuit.karate - org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.119, api.octoperf.com/51.91.14.31, api.octoperf.com/51.91.14.18] failed: connect timed out, http call failed after 25098 milliseconds for URL: https://api.octoperf.com/public/users/login?%27password%27=ExamenBCPWEB01&%27username%27=pruebasweb01.MAHR%40gmail.com
+17:39:30.095 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.119, api.octoperf.com/51.91.14.31, api.octoperf.com/51.91.14.18] failed: connect timed out
+17:40:01.444 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+17:40:01.451 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+17:40:02.027 [main] ERROR com.intuit.karate - http request failed: request body is required for a POST, please use the 'request' keyword
+17:53:56.092 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+17:53:56.102 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+17:53:56.631 [main] ERROR com.intuit.karate - http request failed: request body is required for a POST, please use the 'request' keyword
+17:54:37.616 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+17:54:37.624 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+18:07:30.408 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+18:07:30.419 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+18:07:43.325 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+18:07:43.333 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+18:07:44.047 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: api.octoperf.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+18:08:09.267 [main] ERROR com.intuit.karate - org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.14.31, api.octoperf.com/51.91.17.119] failed: connect timed out, http call failed after 25220 milliseconds for URL: https://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+18:08:09.267 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.14.31, api.octoperf.com/51.91.17.119] failed: connect timed out
+18:08:36.666 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+18:08:36.675 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+19:14:42.292 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+19:14:42.301 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+19:14:55.968 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+19:14:55.979 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+19:14:56.514 [main] ERROR com.intuit.karate - http request failed: request body is required for a POST, please use the 'request' keyword
+19:15:25.179 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+19:15:25.188 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+19:15:25.879 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 0
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: api.octoperf.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+
+19:15:51.104 [main] ERROR com.intuit.karate - org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.17.119, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.14.31] failed: connect timed out, http call failed after 25225 milliseconds for URL: https://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+19:15:51.104 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.17.119, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.14.31] failed: connect timed out
+19:16:24.278 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+19:16:24.287 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+19:16:24.994 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 0
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: api.octoperf.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+
+19:16:50.101 [main] ERROR com.intuit.karate - org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.17.119, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.14.31] failed: connect timed out, http call failed after 25106 milliseconds for URL: https://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+19:16:50.101 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.17.119, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.14.31] failed: connect timed out
+19:18:32.354 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+19:18:32.362 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+19:18:33.101 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 0
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: api.octoperf.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+
+19:18:58.207 [main] ERROR com.intuit.karate - org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.17.119, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.14.31] failed: connect timed out, http call failed after 25105 milliseconds for URL: https://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+19:18:58.207 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.17.119, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.14.31] failed: connect timed out
+19:19:19.152 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+19:19:19.160 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+19:19:19.810 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 0
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: api.octoperf.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+
+19:19:44.915 [main] ERROR com.intuit.karate - org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.17.119, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.14.31] failed: connect timed out, http call failed after 25105 milliseconds for URL: https://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+19:19:44.916 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.17.119, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.14.31] failed: connect timed out
+19:20:08.300 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+19:20:08.310 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+19:20:08.991 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 0
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: api.octoperf.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+
+19:20:34.092 [main] ERROR com.intuit.karate - org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.17.119, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.14.31] failed: connect timed out, http call failed after 25101 milliseconds for URL: https://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+19:20:34.092 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.17.119, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.14.31] failed: connect timed out
+19:21:31.422 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+19:21:31.430 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+19:21:32.054 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 0
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: api.octoperf.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+
+19:21:57.283 [main] ERROR com.intuit.karate - org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.14.31, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.17.119] failed: connect timed out, http call failed after 25228 milliseconds for URL: https://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+19:21:57.283 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.14.31, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.17.119] failed: connect timed out
+19:25:22.283 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+19:25:22.293 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+19:25:23.001 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 0
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: api.octoperf.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+
+19:25:48.102 [main] ERROR com.intuit.karate - org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.14.31, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.17.119] failed: connect timed out, http call failed after 25101 milliseconds for URL: https://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+19:25:48.103 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.14.31, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.17.119] failed: connect timed out
+19:43:24.532 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+19:43:24.540 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+19:43:25.198 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 0
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: api.octoperf.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+
+19:43:50.306 [main] ERROR com.intuit.karate - org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.17.119, api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.14.31, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.14.18] failed: connect timed out, http call failed after 25108 milliseconds for URL: https://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+19:43:50.307 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.17.119, api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.14.31, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.14.18] failed: connect timed out
+19:45:41.481 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+19:45:41.489 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+19:45:42.191 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 0
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: api.octoperf.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+
+19:45:56.872 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+19:45:56.880 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT http://api.octoperf.com 
+19:45:57.591 [main] DEBUG com.intuit.karate - request:
+1 > POST http://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 0
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: api.octoperf.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+
+
+19:46:22.691 [main] ERROR com.intuit.karate - org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:80 [api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.14.31, api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.17.119] failed: connect timed out, http call failed after 25099 milliseconds for URL: http://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+19:46:22.691 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:80 [api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.14.31, api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.17.119] failed: connect timed out
+19:46:46.796 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+19:46:46.804 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT http://api.octoperf.com 
+19:46:47.566 [main] DEBUG com.intuit.karate - request:
+1 > POST http://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 0
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: api.octoperf.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > accept: */*
+
+
+19:47:03.321 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+19:47:03.329 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+19:47:04.030 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 0
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: api.octoperf.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > accept: */*
+
+
+19:47:29.120 [main] ERROR com.intuit.karate - org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.14.31, api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.17.119] failed: connect timed out, http call failed after 25090 milliseconds for URL: https://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+19:47:29.120 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.14.31, api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.17.119] failed: connect timed out
+20:09:58.905 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+20:09:58.918 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+20:13:55.787 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+20:13:55.797 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+20:13:56.523 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+20:13:56.524 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+20:13:56.575 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+20:13:56.576 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+20:13:56.809 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 0
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: api.octoperf.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > accept: */*
+
+
+20:14:21.959 [main] ERROR com.intuit.karate - org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.119, api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.14.31] failed: connect timed out, http call failed after 25149 milliseconds for URL: https://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+20:14:21.960 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.119, api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.14.31] failed: connect timed out
+20:14:21.969 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.octoperf.com/public/users/login?password=ExamenBCPWEB02&username=pruebasweb01.MAHR%40gmail.com
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 0
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: api.octoperf.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > accept: */*
+
+
+20:14:46.974 [main] ERROR com.intuit.karate - org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.119, api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.14.31] failed: connect timed out, http call failed after 25005 milliseconds for URL: https://api.octoperf.com/public/users/login?password=ExamenBCPWEB02&username=pruebasweb01.MAHR%40gmail.com
+20:14:46.975 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.119, api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.14.31] failed: connect timed out
+20:18:01.038 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+20:18:01.052 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+20:18:01.735 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+20:18:01.737 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+20:18:01.793 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+20:18:01.793 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+20:18:01.822 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+20:18:01.822 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+20:18:01.922 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+20:18:01.922 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+20:18:01.951 [main] INFO  com.intuit.karate - karate.env system property was: PRUEBA 
+20:18:01.952 [main] INFO  com.intuit.karate - URL BASE OPEN MARKET UAT https://api.octoperf.com 
+20:18:02.105 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 0
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: api.octoperf.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > accept: */*
+
+
+20:18:27.131 [main] ERROR com.intuit.karate - org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.119, api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.14.31] failed: connect timed out, http call failed after 25026 milliseconds for URL: https://api.octoperf.com/public/users/login?password=ExamenBCPWEB01&username=pruebasweb01.MAHR%40gmail.com
+20:18:27.132 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.119, api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.14.31] failed: connect timed out
+20:18:27.139 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.octoperf.com/public/users/login?password=ExamenBCPWEB02&username=pruebasweb01.MAHR%40gmail.com
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 0
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: api.octoperf.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > accept: */*
+
+
+20:18:52.145 [main] ERROR com.intuit.karate - org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.119, api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.14.31] failed: connect timed out, http call failed after 25005 milliseconds for URL: https://api.octoperf.com/public/users/login?password=ExamenBCPWEB02&username=pruebasweb01.MAHR%40gmail.com
+20:18:52.145 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.119, api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.14.31] failed: connect timed out

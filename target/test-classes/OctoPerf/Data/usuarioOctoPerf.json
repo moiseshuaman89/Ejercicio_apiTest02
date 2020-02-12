@@ -1,0 +1,18 @@
+[
+  {
+    "escenario": "01",
+    "usuario": "pruebasweb01.MAHR@gmail.com",
+    "password": "ExamenBCPWEB01",
+    "token": "a27bb2d4-e52d-49a5-8c8d-11c38a77ee90",
+    "statusCode": 200
+  },
+  {
+    "escenario": "02",
+    "usuario": "pruebasweb01.MAHR@gmail.com",
+    "password": "ExamenBCPWEB02",
+    "token": "",
+    "statusCode": 404,
+    "message": "The requested Item has not been found",
+    "type": "ItemNotFoundException"
+  }
+]

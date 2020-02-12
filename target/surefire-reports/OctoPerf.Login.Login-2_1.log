@@ -1,0 +1,14 @@
+20:18:27.139 request:
+1 > POST https://api.octoperf.com/public/users/login?password=ExamenBCPWEB02&username=pruebasweb01.MAHR%40gmail.com
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 0
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: api.octoperf.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > accept: */*
+
+
+20:18:52.145 org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.119, api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.14.31] failed: connect timed out, http call failed after 25005 milliseconds for URL: https://api.octoperf.com/public/users/login?password=ExamenBCPWEB02&username=pruebasweb01.MAHR%40gmail.com
+20:18:52.146 http request failed: 
+org.apache.http.conn.ConnectTimeoutException: Connect to api.octoperf.com:443 [api.octoperf.com/51.91.17.148, api.octoperf.com/51.91.17.120, api.octoperf.com/51.91.17.119, api.octoperf.com/51.91.14.18, api.octoperf.com/51.91.14.31] failed: connect timed out
