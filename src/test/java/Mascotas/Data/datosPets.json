@@ -1,0 +1,18 @@
+[
+  {
+    "escenario": "01",
+    "id": "5545444",
+    "name": "Bruno Newton",
+    "photoUrls": "pets.jpg",
+    "status": "available",
+    "statusCode": 200
+  },
+  {
+    "escenario": "02",
+    "id": "5545444",
+    "name": "Bruno Newton DOGDOGGG",
+    "photoUrls": "pets0000.jpg",
+    "status": "pending",
+    "statusCode": 200
+  }
+]
